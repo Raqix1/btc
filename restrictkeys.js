@@ -1,6 +1,4 @@
-<head>
-    <!-- other head content -->
-    <script>
+
         document.addEventListener("DOMContentLoaded", function() {
             // Objects to keep track of keys pressed and released
             let keysPressed = {};
@@ -70,5 +68,3 @@
             const observer = new MutationObserver(callback);
             observer.observe(document, observerConfig);
         });
-    </script>
-</head>
