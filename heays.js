@@ -1,9 +1,3 @@
-
-
-
-
-    
-var tradejsonData = []; var depthjsonData = [];var depthRoundjsonData = []; var initExchange = "coinbase";var passedPeriod = 10; 
     
 $(document).ready(function() {
     const targetNode = $('#placeholder .flot-y-axis.flot-y1-axis.yAxis.y1Axis')[0];
