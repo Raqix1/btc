@@ -7,5 +7,5 @@ self.onmessage = function() {
         elements.forEach(el => {
             el.style.backfaceVisibility = 'hidden';
         });
-    }, 4000); // every 10 seconds
+    }, 400); // every 10 seconds
 }
